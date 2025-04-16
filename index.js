@@ -23,6 +23,6 @@ app.get('/mysql', (req, res) => {
         });
     });
 })
-app.listen(post, (req, res) => {
+app.listen(post, '0.0.0.0',(req, res) => {
     console.log(`Example app listening on port ${post}!`);
 })
